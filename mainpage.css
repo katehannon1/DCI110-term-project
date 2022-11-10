@@ -1,0 +1,15 @@
+
+body {
+font-family: 'Rubik', sans-serif;
+background-color: #B5CEC2;
+}
+
+@media screen and (min-width:992px){
+    .nav-item {
+    line-height:80px;
+    }
+  }
+
+  .headerNav {
+    background-color: lightgreen;
+}
