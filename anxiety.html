@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="Brain.png" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="script.js"></script>
@@ -18,7 +21,7 @@
 <!--NavBar Start-->
 <nav class="navbar navbar-expand-lg navbar-dark p-3 bg-transparent" id="headerNav">
   <div class="container-fluid">
-    <a class="navbar-brand d-block d-lg-none" href="#">
+    <a class="navbar-brand d-block d-lg-none" href="Brain.png">
       <img src="/static_files/images/logos/logo_2_white.png" height="80" />
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,21 +31,21 @@
     <div class=" collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto ">
         <li class="nav-item">
-          <a class="nav-link mx-2 active" aria-current="page" href="mainpage.html">Home</a>
+          <a class="nav-link mx-2" aria-current="page" href="mainpage.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-2" href="Index.html">Index</a>
         </li>
         <li class="nav-item d-none d-lg-block">
           <a class="nav-link mx-2" href="#">
-            <img src="/static_files/images/logos/logo_2_white.png" height="80" />
+            <img src="Brain.png" height="80" />
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Contact Us</a>
+          <a class="nav-link mx-2" href="Contact.html">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link mx-2" href="Social.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
             Social Media
           </a>
           </ul>
@@ -94,5 +97,7 @@
 
 </section>
 
-
+<div class="container">
+  <span class="text-muted">Place sticky footer content here.</span>
+</div>
 </body>
