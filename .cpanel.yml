@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pintoc24/public_html/
+    - export DEPLOYPATH=/home/pintoc24/public_html/repositories/
     - /bin/cp -R * $DEPLOYPATH
