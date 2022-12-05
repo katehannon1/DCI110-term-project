@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pintoc24/public_html/repositories/DCI110-term-project/
+    - export DEPLOYPATH=/home/pintoc24/public_html/repositories/
     - /bin/cp -R * $DEPLOYPATH
